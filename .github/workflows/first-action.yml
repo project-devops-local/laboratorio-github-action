@@ -8,3 +8,9 @@ jobs:
         run: echo "Hello word"
       - name:  Print goodBye
         run: echo "Prueba 2"
+      - name:  Multiples ejecuciones de run 
+        run: |
+          echo "ejecucion 1"
+          echo "ejecucion 2"
+          echo "ejecucion 3"
+          
